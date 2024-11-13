@@ -5,8 +5,8 @@ Node JS v20.12.0
 
 ```sh
 npm install
-```
 npm install bootstrap
+```
 
 ### Compile and Hot-Reload for Development
 
