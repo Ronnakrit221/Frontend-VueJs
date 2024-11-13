@@ -1,0 +1,61 @@
+.todo-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-decoration-line-through {
+    text-decoration: line-through;
+  }
+  
+  /* Modal Style */
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ddd;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  /* Improve list item style */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-title {
+    word-wrap: break-word; 
+    word-break: break-all; 
+    white-space: normal;
+    max-width: 70%;
+  }
+  
+  .input-group input {
+    border-radius: 5px;
+  }
+  
+  .input-group-append .btn {
+    border-radius: 5px;
+  }
+  
+  .btn-success, .btn-info, .btn-danger {
+    border-radius: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .todo-app {
+      padding: 15px;
+    }
+  }
